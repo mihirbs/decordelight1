@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service - Decor Delight</title>
+    
+    <style>
+        /* General Styles */
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+/* Top Navbar Styles */
+#top {
+    background: #555555;
+    padding: 10px 0;
+    color: #fff;
+}
+
+/* ... Include all your CSS styles here ... */
+
+/* Customer Service Page Specific Styles */
+#content .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#content h1 {
+    color: #4993e4;
+    text-align: center;
+}
+
+#content p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ... More styles as needed ... */
+/* FAQ Styles */
+#faqs {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#faqs h2 {
+    text-align: center;
+    color: #4993e4;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.faq-new-question {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eef2f7;
+    border-radius: 5px;
+}
+
+.faq-new-question h3 {
+    margin-bottom: 10px;
+}
+
+.faq-new-question form {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-new-question input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.faq-new-question input[type="submit"] {
+    padding: 10px;
+    background-color: #4993e4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.faq-new-question input[type="submit"]:hover {
+    background-color: #4078c0;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+<div id="top">
+    <!-- Top Navbar content here -->
+</div>
+
+<header class="navbar">
+    <!-- Header content here -->
+</header>
+
+<main id="content">
+    <div class="container">
+        <h1>Customer Service</h1>
+        <p>Welcome to Decor Delight's customer service page. How can we help you today?</p>
+        
+        <!-- Add more content as needed -->
+    </div>
+</main>
+<section id="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <h3>What is the return policy?</h3>
+        <p>We accept returns within 30 days of purchase. Items must be in original condition and packaging.</p>
+    </div>
+    <div class="faq-item">
+        <h3>How do I track my order?</h3>
+        <p>You can track your order using the tracking number provided in your shipping confirmation email.</p>
+    </div>
+    <div class="faq-item">
+        <h3>How can I change my order?</h3>
+        <p>Please contact our customer service team as soon as possible to make changes to your order.</p>
+    </div>
+    <!-- Add more FAQs as needed -->
+</section>
+<!-- Existing FAQ Section -->
+<section id="faqs">
+    <!-- ... Your existing FAQ items ... -->
+
+    <!-- New Question Form -->
+    <div class="faq-new-question">
+        <h3>Have a question? Ask us:</h3>
+        <form action="submit_question.php" method="post">
+            <input type="text" name="customer_question" placeholder="Enter your question here" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <!-- Footer content here -->
+</footer>
+
+</body>
+</html>
