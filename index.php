@@ -146,12 +146,10 @@ include("includes/main.php");
             &copy; <?php echo date("Y");?> Decor Delight&trade;
           </div>
 
-          <div class="developer">
-            Developed by Aryan Parmar
-          </div>
+          
 
           <div class="designby">
-            Design by Mihir Solanki
+            Developed by Mihir Solanki
           </div>
 
         </div>
