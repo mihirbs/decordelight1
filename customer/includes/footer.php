@@ -107,10 +107,12 @@
 				&copy; Decor Delight&trade;
 			</div>
 
-			
+			<div class="developer">
+				Dev by Aryan Parmar
+			</div>
 
 			<div class="designby">
-				Developed by Mihir Solanki
+				Design by Mihir Solanki
 			</div>
 		</div>
 	</div>
